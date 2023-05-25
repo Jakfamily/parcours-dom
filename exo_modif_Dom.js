@@ -113,3 +113,34 @@ document.addEventListener("DOMContentLoaded", changeViewButtons);
 
 //-------------------------------------------------------------------------
 //modife 8
+const createNewDivs = () => {
+  const containerDiv = document.querySelector(".container");
+
+  // Crée une nouvelle div .row
+  const newRowDiv = document.createElement("div");
+  newRowDiv.classList.add("row");
+
+  // Insère la nouvelle div .row après la première div .row existante, si elle existe
+  const existingRowDiv = containerDiv.querySelector(".row");
+  if (existingRowDiv) {
+    containerDiv.insertBefore(newRowDiv, existingRowDiv.nextSibling);
+  } else {
+    containerDiv.appendChild(newRowDiv);
+  }
+
+  // Récupère toutes les divs avec la classe .col-md-4 de la div .row existante
+  const existingCards = containerDiv.querySelectorAll(
+    ".row:first-child .col-md-4"
+  );
+
+  // Vérifie s'il y a au moins 3 divs dans la div .row existante
+  if (existingCards.length >= 3) {
+    // Récupère la 3ème div .col-md-4 de la div .row existante
+    const thirdCard = existingCards[2];
+
+    // Déplace la 3ème div .col-md-4 de la div .row existante vers la nouvelle div .row
+    newRowDiv.appendChild(thirdCard);
+  }
+};
+
+createNewDivs();
