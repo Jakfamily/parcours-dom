@@ -7,7 +7,7 @@ JavaScript EventListner <br>
 <h4 align="center">8 exercices of JavaScript Ev</h4>
 <br>
 
-![Javascript exercice](https://i.imgur.com/Dc0tSdW.png)
+![Javascript exercice](exo.png)
 
 ## Exercices 🏋️
 
