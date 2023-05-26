@@ -11,7 +11,8 @@ JavaScript EventListner <br>
 
 ## Exercices 🏋️
 
-###Modification 1
+### Modification 1
+
 La première modification a été apportée en utilisant la fonction changeTitles(). Elle a permis de changer le titre en haut de la page de "Album Example" à "Ce que j'ai appris à THP" et de modifier le sous-titre pour présenter THP comme une formation de 3 mois à plein temps offrant des connaissances actionnables.
 
 ### Modification 2
