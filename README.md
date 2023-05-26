@@ -2,7 +2,7 @@
   <br>
   <a href="https://www.javascript.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript" width="200"></a>
   <br>
-JavaScript EventListner <br>
+JavaScript <br>
 </h1>
 <h4 align="center">8 exercices of JavaScript </h4>
 <br>
