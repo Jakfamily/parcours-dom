@@ -4,7 +4,7 @@
   <br>
 JavaScript EventListner <br>
 </h1>
-<h4 align="center">8 exercices of JavaScript Ev</h4>
+<h4 align="center">8 exercices of JavaScript </h4>
 <br>
 
 ![Javascript exercice](exo.png)
